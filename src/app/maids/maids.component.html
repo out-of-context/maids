@@ -1,0 +1,29 @@
+<div class="container-flu">
+  <div class="front-image">
+    <div class="wall black-wall"></div>
+  </div>
+
+  <nav class="navigation-bar">
+    <div class="navigation-bar-content">
+      <h1 class="higher-title">Maids</h1>
+
+      <mat-form-field class="p-2">
+        <mat-label>Search Users</mat-label>
+        <input
+          matInput
+          type="text"
+          placeholder="Search"
+          [(ngModel)]="searchInput"
+          (change)="onSearchInputChanged()"
+        />
+      </mat-form-field>
+    </div>
+  </nav>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+
+  <div class="footer">
+    <div class="footer-elements"></div>
+  </div>
+</div>

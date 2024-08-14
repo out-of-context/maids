@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+::ng-deep .mat-form-field .mat-input-element {
+  color: slategray;
+}
+::ng-deep .mat-form-field .mat-form-field-label {
+  color: slategray !important;
+}
+::ng-deep .mat-form-field .mat-form-field-underline {
+  background-color: slategray;
+}
+::ng-deep .mat-form-field .mat-form-field-ripple {
+  background-color: slategray;
+}
+::ng-deep .mat-form-field .mat-form-field-required-marker {
+  color: slategray;
+}
+
+::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
+  color: #ff884d !important;
+}
+::ng-deep .mat-form-field.mat-focused .mat-form-field-ripple {
+  background-color: #ff884d;
+}
+::ng-deep .mat-form-field.mat-focused .mat-form-field-required-marker {
+  color: #ff884d;
+}
+::ng-deep .mat-form-field.mat-focused .mat-input-element {
+  color: #ff884d;
+}
+::ng-deep .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+  background-color: rgba(185, 168, 147, 0.1);
+}

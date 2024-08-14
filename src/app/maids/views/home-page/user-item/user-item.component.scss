@@ -1,0 +1,31 @@
+.spinner-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.users-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  .user-card {
+    .user-image {
+      max-width: 178px !important;
+      min-width: 178px;
+      background-size: contain;
+      margin: 10px !important;
+    }
+    .user-more {
+      color: #005cbb;
+    }
+  }
+}
+
+.no-results {
+  height: 50vh;
+}
+
+.pagination {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
